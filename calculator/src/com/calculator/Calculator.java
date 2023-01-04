@@ -13,6 +13,10 @@ public class Calculator {
 		
 		return number1 + number2;
 	}
+
+	public int multiply() {
+		return number1*number2;
+	}
 	
 	
 	
