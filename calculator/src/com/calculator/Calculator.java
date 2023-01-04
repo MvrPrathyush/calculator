@@ -9,9 +9,13 @@ public class Calculator {
 		this.number2 = number2;
 	}
 
-	public int add() {
+	public int add(int... values) {
+		int sum = 0;
+		for (int eachNum: values) {
+			sum = sum + eachNum;
+		}
 		
-		return number1 + number2;
+		return sum;
 	}
 
 	public int multiply() {
